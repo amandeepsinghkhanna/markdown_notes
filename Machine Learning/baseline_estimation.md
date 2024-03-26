@@ -9,7 +9,7 @@ The estimation of baseline sales is either done at a aggregated (chain/market-le
 1. Scan Pro
 2. Promotion Scan
 
-Both these models were developed on the ACNielson and IRI datasets. They are log-linear models that provide the estimate of baseline sales and sales response as a function of retialer promotional tactics such as price discounts, feature ads, and displays.
+Both these models were developed on the ACNielson and IRI datasets. They are log-linear models that provide the estimate of baseline sales and sales response as a function of retialer promotional tactics such as price discounts, feature ads, and displays [1].
 
 *Todo - Read about Phantom spikes.*
 
@@ -19,19 +19,19 @@ The four ways to check if the estimated baselines are accurate:
 
 **1. No correlation with promotional activity**
 
-A valid baseline estimation model should eliminate correlation between the presence of promotional activity and baseline estimates. There should be no structural difference in the baseline between promoted and non-promoted weeks i.e., in other words,  phantom spikes should not appear.
+A valid baseline estimation model should eliminate correlation between the presence of promotional activity and baseline estimates. There should be no structural difference in the baseline between promoted and non-promoted weeks i.e., in other words,  phantom spikes should not appear [3].
 
 **2. Minimal week-to-week volatility**
 
-The baseline estimates are expected to be steady in the weeks immediately before and after a promotional activity. The change in baseline estimates should have a gradual drift.
+The baseline estimates are expected to be steady in the weeks immediately before and after a promotional activity. The change in baseline estimates should have a gradual drift [3].
 
 **3. No structural basis in the deviations**
 
-The baseline estaimates should not be consistently over-estimated or under-estimated over continous periods of time. 
+The baseline estaimates should not be consistently over-estimated or under-estimated over continous periods of time [3]. 
 
 **4. Minimal error in non-promotional weeks** 
 
-Baseline estimates for the weeks without any promotional activity should be close to the actual sales.
+Baseline estimates for the weeks without any promotional activity should be close to the actual sales [3].
 
 ## References
 
