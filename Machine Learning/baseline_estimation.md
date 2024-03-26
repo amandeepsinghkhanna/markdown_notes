@@ -2,6 +2,7 @@
 
 ## Table of contents
   - [Introduction](#introduction)
+    - [Defining baseline](#defining-baseline)
   - [References](#references)
 
 ## Introduction
@@ -13,3 +14,4 @@ A key element of all these models is establishing a baseline sales level. This r
 ## References
 
 1. [Kurt Jetta, A model to improve the estimation of baseline retail sales, Journal of CENTRUM, 2011](https://deliverypdf.ssrn.com/delivery.php?ID=465084070078097076026070067079114069120073069085030094102095079026125069069030002071042006097007012027110068105003114123066010104032014085018084068116082117021122030029075052101030019127088021086093083107085030126123126121089099101065123086013019111126&EXT=pdf&INDEX=TRUE)
+2. [Ahmed Khaled, The difference between baseline & regular sales, LinkedIn Blog, 24th June 2020](https://www.linkedin.com/pulse/difference-between-baseline-regular-sales-ahmed-khaled/)
