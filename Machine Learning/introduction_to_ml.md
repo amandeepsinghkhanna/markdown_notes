@@ -66,6 +66,6 @@ The following are the challenges that commonly affect popular machine learning a
 >
 
 1. **Poor Measurements:** Datasets full of errors, outliers, noise will result in a poor model.
-2. **Irrelevant Variables/Features**: ****Machine learning algorithms can struggle when trained on datasets containing variables that lack a meaningful relationship with the target variable (the one you want to predict or classify). 
+2. **Irrelevant Variables/Features:** Machine learning algorithms can struggle when trained on datasets containing variables that lack a meaningful relationship with the target variable (the one you want to predict or classify). 
 3. **Over-fitting:** Over-fitting occurs when a machine learning model learns the training data too well, including the noise and random fluctuations. The model memorizes the specific details of the training set rather than capturing the underlying patterns and trends. The model performs well on the training data but fails to generalize to new, unseen data.
 4. **Under-fitting:** Under-fitting is the opposite of over-fitting and happens when a machine learning model fails to capture the important relationships within the training data. This results in poor performance on both the training set and unseen data, as the model lacks the ability to identify the underlying patterns.
