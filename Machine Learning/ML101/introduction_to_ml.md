@@ -1,6 +1,17 @@
 # Introduction to Machine Learning (ML) - Session 01
 
-# 1. What is Machine Learning (ML)?
+## Table of contents
+
+- [1. What is Machine Learning (ML)?](#1-what-is-machine-learning-ml)
+- [2. Classification of Machine Learning algorithms](#2-classification-of-machine-learning-algorithms)
+    - [2.1. Classification of Machine Learning algorithms based on how they are trained](#21-classification-of-machine-learning-algorithms-based-on-how-they-are-trained)
+    - [2.2. Classification of Machine Learning algorithms based on if they are trained incrementally or on the fly](#22-classification-of-machine-learning-algorithms-based-on-if-they-are-trained-incrementally-or-on-the-fly)
+    - [2.3. Classification of Machine Learning algorithms how they make a prediction](#23-classification-of-machine-learning-algorithms-how-they-make-a-prediction)
+- [3. How do we determine the best Machine Learning algorithm for a situation?](#3-how-do-we-determine-the-best-machine-learning-algorithm-for-a-situation)
+    - [3.1. No Free Lunch Theorem](#31-no-free-lunch-theorem)
+- [4. Challenges affecting the performance of Machine Learning algorithms](#4-challenges-affecting-the-performance-of-machine-learning-algorithms)
+
+## 1. What is Machine Learning (ML)?
 
 Here are a few formal definitions of machine learning (ML):
 
@@ -18,7 +29,7 @@ The types of tasks that can be performed by Machine Learning algorithms are:
 2. **Regression:** Predicting a continuous value for a new data point, like predicting housing prices.
 3. **Classification:** Predicting the class or category of a new data point, like classifying emails as spam or not spam, or diagnosing diseases based on symptoms.
 
-# 2. Classification of Machine Learning algorithms:
+## 2. Classification of Machine Learning algorithms
 
 Machine learning algorithms/systems can be broadly classified based on three criteria:
 
@@ -28,33 +39,33 @@ Machine learning algorithms/systems can be broadly classified based on three cri
 
 Of these three, the more theoretical and traditional approach is to classify the algorithms based on how they are trained.
 
-## 2.1. Classification of Machine Learning algorithms based on how they are trained:
+### 2.1. Classification of Machine Learning algorithms based on how they are trained
 
 1. **Unsupervised Machine Learning:** In unsupervised machine learning, the algorithm is fed with an unlabeled dataset and attempts to capture the patterns within the data.
 2. **Supervised Machine Learning:** The dataset used to train the model contains the desired outcome as a label, letting the algorithm know the desired output.
 3. **Semi-Supervised Machine Learning:** These algorithms are a hybrid of supervised and unsupervised learning algorithms. They can handle both labeled and unlabeled datasets.
 4. **Reinforcement Learning:** Reinforcement learning is different from other approaches because it doesn't depend on input-output data pairs. In this approach, the algorithm is called an agent and is provided with a set of possible actions and their corresponding outcomes in the form of rewards or penalties. The agent learns the best course of action for accomplishing the task by optimizing its actions to maximize rewards.
 
-## 2.2. Classification of Machine Learning algorithms based on if they are trained incrementally or on the fly:
+### 2.2. Classification of Machine Learning algorithms based on if they are trained incrementally or on the fly
 
 1. **Batch/Offline Learning:** Machine Learning algorithms cannot learn incrementally and instead need to be trained on all available data for each change.
 2. **Online Learning:** Machine Learning algorithms is trained incrementally by feeding it data sequentially in small group known as mini-batches.
 
-## 2.3. Classification of Machine Learning algorithms how they make a prediction:
+### 2.3. Classification of Machine Learning algorithms how they make a prediction
 
 1. **Instance-based Learning:** The Machine Learning algorithms learn each data point thoroughly and make predictions by measuring the similarity of the new data point to the closest learned data point.
 2. **Model-based Learning:** Machine Learning algorithms learn the underlying pattern from training data and use that knowledge to make predictions on unknown data points
 
-# 3. How do we determine the best Machine Learning algorithm for a situation?
+## 3. How do we determine the best Machine Learning algorithm for a situation?
 
-## 3.1. No Free Lunch Theorem:
+### 3.1. No Free Lunch Theorem
 
 > David Wolpert, in his famous 1996 paper, demonstrated that if no assumptions are made about the data, there is no reason to prefer one machine learning algorithm over another. This concept is known as the "no free lunch" theorem. You can read the paper [here](https://source-bed.oss-cn-beijing.aliyuncs.com/paper/lack_of_a_priori_distinctions_wolpert.pdf).
 > 
 
 According to the theorem, no machine learning algorithm is inherently better than another. However, the choice of algorithm is determined by the assumptions of the data used to train and make predictions.
 
-# 4. Challenges affecting the performance of Machine Learning algorithms:
+## 4. Challenges affecting the performance of Machine Learning algorithms
 
 The following are the challenges that commonly affect popular machine learning algorithms:
 
