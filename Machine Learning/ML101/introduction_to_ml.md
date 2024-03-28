@@ -1,4 +1,4 @@
-# Introduction to Machine Learning (ML)
+# Introduction to Machine Learning (ML) - Session 01
 
 # 1. What is Machine Learning (ML)?
 
